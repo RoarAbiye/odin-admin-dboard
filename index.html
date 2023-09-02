@@ -29,84 +29,99 @@
 
   <!-- Nav Bar -->
   <div id="nav-bar">
-    <div class="top-nav-bar">
-      <div class="search-bar">
-        <input type="search" name="" value="">
+    <div class="nav-top">
+      <div class="nav-left">
+        <div class="search-bar">
+          <input type="search" name="" value="">
+        </div>
       </div>
-      <div class="notification">
-        <img src="assets/images/bell-ring-outline.svg" alt="">
+      <div class="nav-right">
+        <div class="notification">
+          <img src="assets/images/bell-ring-outline.svg" alt="">
+        </div>
+        <img class="profile-picture-small" src="assets/images/profile-picture-croped.png" alt="Profile Picture">
+        <div class="user-name">Robel Abiye</div>
       </div>
-      <img class="profile-picture-small" src="assets/images/profile-picture-croped.png" alt="Profile Picture">
-      <div class="user-name">Robel Abiye</div>
     </div>
-    <div class="bottom-nav-bar">
-      <div class="user-info">
-        <img class="profile-picture-mid" src="assets/images/profile-picture-croped.png" alt="Prifle Picrtue">
-      </div>
+    <div class="nav-bottom">
+      <div class="nav-b-left">
+        <div class="user-info">
+          <img class="profile-picture-mid" src="assets/images/profile-picture-croped.png" alt="Prifle Picrtue">
+        </div>
 
-      <div class="user-status">
-        Hi there,
+        <div class="user-status">
+          Hi there,
+        </div>
+        <div class="user-dtail">
+          Robel Abiye (@roar)
+        </div>
       </div>
-      <div class="user-dtail">
-        Robel Abiye (@roar)
-      </div>
+        <div class="nav-b-right">
+          <input type="button" value="New">
+          <input type="button" value="Upload">
+          <input type="button" value="Shaer">
+        </div>
     </div>
   </div>
 
   <!-- Main Content -->
   <div id="main-content">
-    <div class="project-heading">Your Projects</div>
-    <div class="announcement-heading">Announcements</div>
-    <div class="trending-heading">Trending</div>
-    <div class="project-container">
-      <div class="project">
-        <h4>Lorem, ipsum dolor.</h4>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum aut laudantium quibusdam dicta reprehenderit.
-        </p>
-      </div>
-      <div class="project">
-        <h4>Similique, nisi sequi!</h4>
-        <p>Neque minima fugiat similique velit eaque. Dolorum harum praesentium repudiandae sit laboriosam delectus
-          numquam.</p>
-      </div>
-      <div class="project">
-        <h4>Quo, optio rerum.</h4>
-        <p>Dolor perspiciatis doloribus corporis cupiditate voluptatibus provident dolore, sint eligendi iste quos,
-          mollitia quo.</p>
-      </div>
-      <div class="project">
-        <h4>Quibusdam, aspernatur maxime.</h4>
-        <p>Magni expedita distinctio commodi fugiat animi ducimus. In labore omnis illum ab totam modi!</p>
-      </div>
-      <div class="project">
-        <h4>Velit, assumenda eum?</h4>
-        <p>Quasi, quia, doloremque eligendi corporis, ducimus pariatur architecto sint nobis commodi magnam facere eum!
-        </p>
-      </div>
-      <div class="project">
-        <h4>Est, quam ex.</h4>
-        <p>Magni porro voluptas nihil est voluptate a nesciunt eos eius totam? Laboriosam, quis molestias.</p>
-      </div>
-    </div>
-
-    <div class="announce-container">
-      <div class="announce">
-        <h5>Lorem, ipsum dolor.</h5>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim unde quis fugit asperiores voluptatum quasi!
-        </p>
-      </div>
-      <div class="announce">
-        <h5>Dolore, id alias.</h5>
-        <p>Eum aut dolor provident quibusdam esse doloribus magnam magni obcaecati sequi eveniet, odio perspiciatis
-          quasi!</p>
-      </div>
-      <div class="announce">
-        <h5>Iusto, nisi a!</h5>
-        <p>Nostrum aperiam ullam tempore incidunt, harum obcaecati sit dolore velit earum mollitia nobis rerum
-          repudiandae.</p>
+    <div class="main-left">
+      <div class="section-header project-heading">Your Projects</div>
+      <div class="project-container">
+        <div class="project-card">
+          <h4>Lorem, ipsum dolor.</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum aut laudantium quibusdam dicta
+            reprehenderit.
+          </p>
+        </div>
+        <div class="project-card">
+          <h4>Similique, nisi sequi!</h4>
+          <p>Neque minima fugiat similique velit eaque. Dolorum harum praesentium repudiandae sit laboriosam delectus
+            numquam.</p>
+        </div>
+        <div class="project-card">
+          <h4>Quo, optio rerum.</h4>
+          <p>Dolor perspiciatis doloribus corporis cupiditate voluptatibus provident dolore, sint eligendi iste quos,
+            mollitia quo.</p>
+        </div>
+        <div class="project-card">
+          <h4>Quibusdam, aspernatur maxime.</h4>
+          <p>Magni expedita distinctio commodi fugiat animi ducimus. In labore omnis illum ab totam modi!</p>
+        </div>
+        <div class="project-card">
+          <h4>Velit, assumenda eum?</h4>
+          <p>Quasi, quia, doloremque eligendi corporis, ducimus pariatur architecto sint nobis commodi magnam facere
+            eum!
+          </p>
+        </div>
+        <div class="project-card">
+          <h4>Est, quam ex.</h4>
+          <p>Magni porro voluptas nihil est voluptate a nesciunt eos eius totam? Laboriosam, quis molestias.</p>
+        </div>
       </div>
     </div>
+    <div class="main-right">
+        <div class="section-header dannouncement-heading">Announcements</div>
+      <div class="announce-container">
+        <div class="announce-card">
+          <div class="ann-card-header" >Lorem, ipsum dolor.</div>
+          <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim unde quis fugit asperiores voluptatum quasi!
+          </div>
+        </div>
+        <div class="announce-card">
+          <div class="ann-card-header">Dolore, id alias.</div>
+          <div>Eum aut dolor provident quibusdam esse doloribus magnam magni obcaecati sequi eveniet, odio perspiciatis
+            quasi!</div>
+        </div>
+        <div class="announce-card">
+          <div class="ann-card-header" >Iusto, nisi a!</div>
+          <div>Nostrum aperiam ullam tempore incidunt, harum obcaecati sit dolore velit earum mollitia nobis rerum
+            repudiandae.</div>
+        </div>
+      </div>
       <div class="trending-contianer">
+        <div class="section-header trending-heading">Trending</div>
         <div class="trending-user">
           <img src="" alt="" class="profile-picture-small">
           <h6 class="user-handle"></h6>
@@ -128,6 +143,7 @@
           <p class="project-title"></p>
         </div>
       </div>
+    </div>
   </div>
 </body>
 
